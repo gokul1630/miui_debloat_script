@@ -14,4 +14,4 @@ com.mycompany.myapp
 com.wstxda.viper4android
 )
 
-for app in ${app[@]}; do adb shell pm disable-user $app; done
+for app in ${app[@]}; do adb shell pm disable-user $app 2>&1; done
