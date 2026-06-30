@@ -12,6 +12,7 @@ com.brouken.player
 org.lineageos.twelve
 com.mycompany.myapp
 com.wstxda.viper4android
+io.chaldeaprjkt.gamespace
 )
 
 for app in ${app[@]}; do adb shell pm disable-user $app 2>&1; done
